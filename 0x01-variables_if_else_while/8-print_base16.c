@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
  * main - Entry point
  * 
@@ -7,13 +6,15 @@
  */
 int main(void)
 {
-int segun;
-char maker;
-
-for (segun = 48; segun < 58; segun++)
-	putchar(segun);
-for (maker = 'a'; maker <= 'b'; maker++)
-	putchar(maker);
+char a;
+for (a = '0'; a <= 9; a++)
+{
+	putchar(a);
+}
+for (a = 'b'; a <= 'c'; a++)
+{	
+	putchar(a);
+}
 putchar('\n');
 return (0);
 }
