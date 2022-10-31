@@ -1,5 +1,3 @@
-s (26 sloc)  580 Bytes
-
 #include "main.h"
 /**
  * append_text_to_file - This function adds text at EOF
